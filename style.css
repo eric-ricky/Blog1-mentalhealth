@@ -47,6 +47,9 @@ img {
     color: white;
     font-family: 'Merienda One', cursive;
 }
+.jumbotron .text-center {
+    margin-top: 8rem !important;
+}
 
 
 
@@ -126,4 +129,12 @@ img {
 footer{
     background-color: #888 !important;
     font-size: 2rem !important;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) {
+    .jumbotron .text-center {
+        margin-top: .1rem !important;
+    }
+       
 }
