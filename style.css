@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Merriweather+Sans:ital,wght@1,700&family=Open+Sans:ital@1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+/* navbar */
+.navbar {
+    padding: 1.3rem;
+}
+.navbar .navbar-brand {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar .navbar-brand span {
+    font-family: serif;
+    font-style: italic;
+    color: aqua;
+}
+
+.navbar .navbar-nav .nav-item  {
+    font-size: 1.4rem;
+    padding: 0 .5rem;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    color: black;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: chartreuse;
+}
+
+/* showcase */
+.jumbotron {
+    height: 40vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
+    url('https://images.pexels.com/photos/36478/amazing-beautiful-beauty-blue.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Merienda One', cursive;
+}
+
+
+
+/* MAIN */
+.section-1 {
+    margin-top: 5rem;
+}
+.content, .contact, .comments, .search, .other-posts {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff !important;
+    padding: 2rem;
+}
+
+.content-img {
+    padding: .7rem 0.5rem;
+}
+.media img {
+    width: 20%;
+}
+
+/* PART1 */
+/* Content */
+.part1 .content {
+    margin-bottom: 1rem;
+}
+.part1 .content .content-title {
+    font-size: 2.7rem;
+}
+.part1 .content .content-txt {
+    margin-top: 3rem;
+    line-height: 1.5;    
+}
+.part1 .content .content-txt p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+.part1 .content .content-txt b {
+    font-size: 1.7rem;
+    margin: 2rem 0 !important;
+    margin-bottom: 3rem !important;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.part1 .content .bonus {
+    padding: 2rem;
+    background-color: #ccc;
+    border-left: .5rem solid blue;
+}
+.part1 .content .bonus h5 {
+    font-size: 1.8rem;
+    font-family: serif;
+    font-weight: 500;
+    color: rgb(92, 61, 3);
+}
+.part1 .content .bonus p {
+    font-family: 'Merienda One', cursive;
+    font-style: italic;
+}
+
+/* comments */
+.comments h3, .contact h3 {
+    /* padding-bottom: 2rem; */
+    font-size: 2rem;
+}
+.comments h3::after, .contact h3::after {
+    content: '';
+    height: .3rem;
+    width: 10%;
+    display: block;
+    background-color: blue;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #888 !important;
+    font-size: 2rem !important;
+}
